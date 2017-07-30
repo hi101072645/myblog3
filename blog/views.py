@@ -2,6 +2,7 @@ from django.shortcuts import redirect, render
 from django.utils import timezone
 
 from .models import Post
+
 # Create your views here.
 
 def post_list(request):
